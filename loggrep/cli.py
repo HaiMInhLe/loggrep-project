@@ -1,6 +1,6 @@
 #!/usr/bin/env python3 
 import argparse
-from .core import read_and_find
+from .core import read_and_find_normal
 
 def main():
     parser = argparse.ArgumentParser(description='Like grep but shittier')
@@ -14,7 +14,7 @@ def main():
     file = arguments.file
     pattern = arguments.pattern
 
-    read_and_find(file, pattern)
+    read_and_find_normal(file, pattern)
 
 if __name__ == "__main__":
     main()
