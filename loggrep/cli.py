@@ -1,4 +1,5 @@
 #!/usr/bin/env python3 
+
 import argparse
 from .core import read_and_find_normal
 
