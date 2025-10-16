@@ -1,7 +1,7 @@
 #!/usr/bin/env python3 
 
-import argparse
-from .core import read_and_find_normal
+import argparse #Import the library argparse to recognize flags and commands from the command line
+from .core import read_and_find_normal #Import a function from core.py-main logic for this package.
 
 def main():
     parser = argparse.ArgumentParser(description='Like grep but shittier')
